@@ -1,3 +1,3 @@
-import { plot } from './services/graph.js';
+import { graph } from './services/graph.js';
 
-export { plot }
+export { graph }
