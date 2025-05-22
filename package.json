@@ -1,0 +1,33 @@
+{
+  "name": "plotterfly",
+  "version": "1.0.0",
+  "description": "A lightweight javacript graphing library.",
+  "keywords": [
+    "graph",
+    "graphing",
+    "plot",
+    "map",
+    "data"
+  ],
+  "homepage": "https://github.com/jaidencoleflannery/plotterfly#readme",
+  "bugs": {
+    "url": "https://github.com/jaidencoleflannery/plotterfly/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaidencoleflannery/plotterfly.git"
+  },
+  "license": "ISC",
+  "author": "Jaiden Cole Flannery",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "test": "node src/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "exports": [
+    "./dist/main.js"
+  ]
+}

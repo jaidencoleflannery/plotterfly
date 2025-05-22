@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "declaration": true,
+      "emitDeclarationOnly": false,
+      "strict": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
+  }
